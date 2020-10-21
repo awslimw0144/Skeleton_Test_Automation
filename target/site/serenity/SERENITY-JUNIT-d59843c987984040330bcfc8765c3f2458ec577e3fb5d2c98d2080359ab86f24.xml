@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="com.testDemo.maintester.TestIMDB_ShouldSeeDirectorNameTest" skipped="0" tests="1" time="24.98" timestamp="2020-10-21 03:27:50"><testcase classname="com.testDemo.maintester.TestIMDB_ShouldSeeDirectorNameTest" name="User should see the director name test"/></testsuite>
