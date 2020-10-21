@@ -1,0 +1,36 @@
+ext{
+    slf4jVersion        = '2.0.0-alpha1'
+    serenityCoreVersion = '2.3.6'
+    junitVersion        = '4.12'
+    assertJVersion      = '3.8.0'
+    logbackVersion      = '1.2.3'
+    apachePOIVersion    = '3.9'
+
+    libs = [
+            slf4j:[
+                    api: "org.slf4j:slf4j-api:${slf4jVersion}",
+                    jdk14:"org.slf4j:slf4j-jdk14:${slf4jVersion}",
+            ],
+            logback: "ch.qos.logback:logback-classic:${logbackVersion}",
+            main: [
+                    serenity: [
+                            core: "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
+                            screenplay: "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}",
+                            screenplayWebdriver: "net.serenity-bdd:serenity-screenplay-webdriver:${serenityCoreVersion}",
+                            screenplayRest: "net.serenity-bdd:serenity-screenplay-rest:${serenityCoreVersion}"
+                    ],
+                    excel : "org.apache.poi:poi-ooxml:${apachePOIVersion}",
+            ],
+            test: [
+                    serenity: [
+                            core: "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
+                            junit: "net.serenity-bdd:serenity-junit:${serenityCoreVersion}",
+                            screenplay: "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}",
+                            screenplayWebdriver: "net.serenity-bdd:serenity-screenplay-webdriver:${serenityCoreVersion}",
+                            screenplayRest: "net.serenity-bdd:serenity-screenplay-rest:${serenityCoreVersion}"
+                    ],
+                    junit: "junit:junit:${junitVersion}",
+                    assertj: "org.assertj:assertj-core:${assertJVersion}"
+            ]
+    ]
+}

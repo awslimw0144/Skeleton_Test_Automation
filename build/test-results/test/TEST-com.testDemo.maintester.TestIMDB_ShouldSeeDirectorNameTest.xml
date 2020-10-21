@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.testDemo.maintester.TestIMDB_ShouldSeeDirectorNameTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-21T07:27:50" hostname="LIMW0144" time="25.027">
+  <properties/>
+  <testcase name="user_Should_See_The_Director_Name_Test" classname="com.testDemo.maintester.TestIMDB_ShouldSeeDirectorNameTest" time="25.027"/>
+  <system-out><![CDATA[15:27:50.291 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for class com.testDemo.maintester.TestIMDB_ShouldSeeDirectorNameTest
+15:27:50.312 [Test worker] INFO  - Test Suite Started: Test IMDB should see director name test
+15:27:50.363 [Test worker] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+user_Should_See_The_Director_Name_Test
+-------------------------------------------------------------------
+15:27:51.719 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: TestIMDB_ShouldSeeDirectorNameTest.lambda$user_Should_See_The_Director_Name_Test$0 - performAs
+15:27:51.735 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: NavigateToWebPage.performAs - {0} opens the #url
+15:27:51.794 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Not using automatically driver download
+15:27:52.615 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+15:27:52.615 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, chrome.switches: --window-size=1920,1080;--t..., goog:chromeOptions: {args: [--window-size=1920,1080, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-infobars, --disable-gpu, --headless], extensions: []}, handlesAlerts: true, loggingPrefs: org.openqa.selenium.logging...}
+15:28:02.266 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+15:28:02.267 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+15:28:03.408 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\0fdaf2fd59c72c2f71b71dfb05994232005a021386fcf2bc645794803e697894.png
+15:28:03.409 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-12268174520619387822
+15:28:03.409 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\0fdaf2fd59c72c2f71b71dfb05994232005a021386fcf2bc645794803e697894.png
+15:28:03.410 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} opens the #url
+15:28:03.432 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+15:28:04.340 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\0fdaf2fd59c72c2f71b71dfb05994232005a021386fcf2bc645794803e697894.png
+15:28:04.341 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: TestIMDB_ShouldSeeDirectorNameTest.lambda$user_Should_See_The_Director_Name_Test$0 - performAs
+15:28:04.368 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchForMovieName.performAs - performAs
+15:28:05.275 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\0fdaf2fd59c72c2f71b71dfb05994232005a021386fcf2bc645794803e697894.png
+15:28:05.275 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: TypeIntoTextBox.performAs - {0} enters #theTextAsAString into #target
+15:28:05.276 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Search Box
+15:28:06.743 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\12d2dbca4570295c05c3398b759e52d0bde418451ae3ff473b936e1359c7cf6e.png
+15:28:06.743 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4711511418956454356
+15:28:06.743 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\12d2dbca4570295c05c3398b759e52d0bde418451ae3ff473b936e1359c7cf6e.png
+15:28:06.743 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+15:28:06.759 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+15:28:06.775 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchForMovieName.performAs - performAs
+15:28:06.776 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Movie Catalog
+15:28:07.749 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\157a4fef92cc46218c61d858e57a433084c4f9d42176c7e025a63a555974edde.png
+15:28:07.749 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-17215616567006089264
+15:28:07.749 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\157a4fef92cc46218c61d858e57a433084c4f9d42176c7e025a63a555974edde.png
+15:28:07.749 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: FromListDropDown.performAs - {0} clicks on #target
+15:28:07.750 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Movie Catalog
+15:28:12.470 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\ec31b6d8288381ab4dbc70b8c69c803466dad70bf31168d9e9d62ac48542d5e2.png
+15:28:12.470 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5706933136458628686
+15:28:12.470 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\ec31b6d8288381ab4dbc70b8c69c803466dad70bf31168d9e9d62ac48542d5e2.png
+15:28:12.470 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+15:28:12.488 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+15:28:12.501 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+15:28:12.515 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: TestIMDB_ShouldSeeDirectorNameTest.lambda$user_Should_See_The_Director_Name_Test$0 - performAs
+15:28:13.353 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\ec31b6d8288381ab4dbc70b8c69c803466dad70bf31168d9e9d62ac48542d5e2.png
+15:28:13.354 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: performAs
+15:28:14.317 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\ec31b6d8288381ab4dbc70b8c69c803466dad70bf31168d9e9d62ac48542d5e2.png
+15:28:14.320 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher - default content already selected for Name of Director
+15:28:15.316 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\ec31b6d8288381ab4dbc70b8c69c803466dad70bf31168d9e9d62ac48542d5e2.png
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 41364
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 21, 2020 3:27:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

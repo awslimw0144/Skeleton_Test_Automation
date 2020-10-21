@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.testDemo.suite.TestSuite_Positive" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="LIMW0144" time="0.0">
+  <properties/>
+  <system-out><![CDATA[15:27:49.796 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+15:27:49.800 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - drivers.windows.webdriver.chrome.driver=src/test/resources/drivers/v86/chromedriver.exe
+15:27:49.800 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.handlesAlerts=true
+15:27:49.801 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - drivers.linux.webdriver.chrome.driver=src/test/resources/drivers/chromedriver.exe
+15:27:49.801 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.switches=--window-size=1920,1080;--test-type;--no-sandbox;--ignore-certificate-errors;\r\n--disable-popup-blocking;--disable-default-apps;--disable-extensions-file-access-check;\r\n--disable-infobars,--disable-gpu
+15:27:49.801 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.acceptSslCerts=true
+15:27:49.801 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=VicLim4 Skeleton Automation
+15:27:49.801 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - drivers.mac.webdriver.chrome.driver=src/test/resources/drivers/chromedriver.exe
+15:27:49.801 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - headless.mode=true
+15:27:49.839 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+15:27:49.839 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - drivers.windows.webdriver.chrome.driver=src/test/resources/drivers/v86/chromedriver.exe
+15:27:49.840 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.handlesAlerts=true
+15:27:49.840 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - drivers.linux.webdriver.chrome.driver=src/test/resources/drivers/chromedriver.exe
+15:27:49.840 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.switches=--window-size=1920,1080;--test-type;--no-sandbox;--ignore-certificate-errors;\r\n--disable-popup-blocking;--disable-default-apps;--disable-extensions-file-access-check;\r\n--disable-infobars,--disable-gpu
+15:27:49.840 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.acceptSslCerts=true
+15:27:49.840 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=VicLim4 Skeleton Automation
+15:27:49.840 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - drivers.mac.webdriver.chrome.driver=src/test/resources/drivers/chromedriver.exe
+15:27:49.840 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - headless.mode=true
+15:27:50.272 [Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+15:28:15.458 [Test worker] INFO  - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+User should see the director name test
+----------------------------------------------------------------------------
+15:28:15.462 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+15:28:15.462 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+15:28:16.096 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+15:28:16.197 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+15:28:16.206 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@1ebac462
+15:28:16.207 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Test IMDB should see director name test:user_Should_See_The_Director_Name_Test
+15:28:16.208 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@1ebac462: Generating report for test outcome: Test IMDB should see director name test:user_Should_See_The_Director_Name_Test
+15:28:16.211 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for User should see the director name test to file C:\GIT\Vic_Selenium\Skeleon_Test\target\site\serenity\d59843c987984040330bcfc8765c3f2458ec577e3fb5d2c98d2080359ab86f24.json (using temp file C:\GIT\Vic_Selenium\Skeleon_Test\target\site\serenity\d59843c987984040330bcfc8765c3f2458ec577e3fb5d2c98d2080359ab86f24.jsond8767d77-442f-45e5-9ead-05fd114aca54)
+15:28:16.246 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Test IMDB should see director name test:user_Should_See_The_Director_Name_Test done
+15:28:16.248 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+15:28:16.249 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 43 ms
+15:28:16.249 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@5d151484
+15:28:16.250 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Test IMDB should see director name test:user_Should_See_The_Director_Name_Test
+15:28:16.251 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@5d151484: Generating report for test outcome: Test IMDB should see director name test:user_Should_See_The_Director_Name_Test
+15:28:16.251 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR user_Should_See_The_Director_Name_Test in d59843c987984040330bcfc8765c3f2458ec577e3fb5d2c98d2080359ab86f24
+15:28:16.260 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[]
+15:28:16.265 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[]
+15:28:16.276 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[]
+15:28:16.276 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[]
+15:28:16.279 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in d59843c987984040330bcfc8765c3f2458ec577e3fb5d2c98d2080359ab86f24_screenshots.html
+15:28:16.703 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report d59843c987984040330bcfc8765c3f2458ec577e3fb5d2c98d2080359ab86f24_screenshots.html in 423 ms
+15:28:16.704 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Test IMDB should see director name test:user_Should_See_The_Director_Name_Test in d59843c987984040330bcfc8765c3f2458ec577e3fb5d2c98d2080359ab86f24.html in directory target\site\serenity  
+15:28:18.083 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in d59843c987984040330bcfc8765c3f2458ec577e3fb5d2c98d2080359ab86f24.html
+15:28:18.240 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report d59843c987984040330bcfc8765c3f2458ec577e3fb5d2c98d2080359ab86f24.html in 157 ms
+15:28:18.240 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Test IMDB should see director name test:user_Should_See_The_Director_Name_Test done
+15:28:18.240 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+15:28:18.240 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 1991 ms
+15:28:18.325 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating report for configuration
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
